@@ -71,8 +71,7 @@ body h1, body h2 {
 
 /* Details Page */
 .details-container {
-    display: flex; 
-    flex-wrap: wrap; 
+    display: none;  /* Ensure it's hidden initially */
     position: fixed;
     top: 50%;
     left: 50%;
@@ -83,6 +82,7 @@ body h1, body h2 {
     color: black;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
 }
+
 
 
 /* Left Side */
