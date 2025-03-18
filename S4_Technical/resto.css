@@ -10,6 +10,14 @@ body {
     margin: 0;
 }
 
+header p {
+    color: white; 
+    font-weight: bold; 
+    background: rgba(0, 0, 0, 0.5); 
+    padding: 5px 10px; 
+    display: inline-block; 
+}
+
 body h1, body h2 {
     color: white;
 }
@@ -84,7 +92,6 @@ body h1, body h2 {
 }
 
 
-
 /* Left Side */
 .details-left {
     position: relative;
@@ -131,7 +138,6 @@ body h1, body h2 {
     flex-grow: 1;
 }
 
-
 .details-right h2 {
     font-size: 32px;
     color: black !important;
@@ -151,8 +157,6 @@ body h1, body h2 {
     padding-bottom: 20px; 
     margin-bottom: 15px; 
 }
-
-
 
 /* Main Menu Button */
 .main-menu-btn {
